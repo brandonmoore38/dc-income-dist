@@ -76,6 +76,8 @@ sns.barplot(x='Ward', y='Percentage of Black Residents, hue='timeframe', data=df
 
 # In[ ]:
 
-
+############ Deploy
+if __name__ == '__main__':
+    app.run_server()
 
 
